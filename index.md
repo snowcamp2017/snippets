@@ -3,7 +3,7 @@
 Référencer le composant (dans `public/index.html`):
 
 ```html
-<script type="riot/tag" src="buster-service.html"></script>
+<script type="riot/tag" src="bob-service.html"></script>
 ```
 
 Ajouter le composant (dans `public/index.html`):
@@ -13,7 +13,7 @@ Ajouter le composant (dans `public/index.html`):
     <padding-top></padding-top>
     <application-content></application-content>
     <!-- services -->
-    <buster-service></buster-service>
+    <bob-service></bob-service>
   </div>
 ```
 
@@ -26,7 +26,7 @@ Monter le composant (dans `public/index.html`):
     riot.mount('application-content')
 
     // mount services tag
-    riot.mount('buster-service')
+    riot.mount('bob-service')
 
   </script>
 ```
