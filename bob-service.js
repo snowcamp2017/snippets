@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 module.exports = function(app) {
-  app.get('/sensors/buster-sensor', (req, res) => {
+  app.get('/sensors/bob-sensor', (req, res) => {
 
     fetch('http://snow-demo-bob.cleverapps.io/sensors/bob-sensor', {
       method: 'GET',
